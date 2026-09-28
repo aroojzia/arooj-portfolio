@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arooj Zia | Zoologist & UI/UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header id="navbar">
+    <nav>
+      <a href="#home" class="logo">Arooj<span>.</span></a>
+      <button id="menu-btn" aria-label="Toggle menu">☰</button>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="hero-hello">Hello, I'm</p>
+      <h1>Arooj Zia</h1>
+      <h2>I'm a <span id="typing"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc">
+        I blend biological research with creative design. From genomics
+        labs to clean, user-friendly interfaces, I love turning complex
+        ideas into simple experiences.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+      </div>
+      <div class="socials">
+        <a href="https://www.behance.net/aroojzia" target="_blank">Behance</a>
+        <a href="https://www.linkedin.com/in/arooj-zia-036051398" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="photo-frame">
+        <img src="images/arooj.jpg" alt="Arooj Fatima" onerror="this.style.display='none'">
+      </div>
+      <div class="float-badge badge-1">UI/UX Designer</div>
+      <div class="float-badge badge-2">Zoology</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-container reveal">
+      <div class="about-text">
+        <p class="section-tag">About Me</p>
+        <h2 class="section-title">Where science meets design.</h2>
+        <p>
+          I'm Arooj, a final-year BS Zoology student and UI/UX designer.
+          My science background trained me to observe carefully, question
+          assumptions, and work with data. I bring the same precision and
+          empathy to every interface I design.
+        </p>
+        <p>
+          I've worked hands-on in a research lab, and I design mobile and
+          web experiences focused on being simple and user-centered. I also
+          completed a course in SEO and digital media marketing, and I have
+          working knowledge of HTML, CSS and JavaScript.
+        </p>
+        <div class="about-stats">
+          <div class="stat"><h3>1+</h3><p>Year in UI/UX</p></div>
+          <div class="stat"><h3>7</h3><p>Design Projects</p></div>
+          <div class="stat"><h3>1</h3><p>Research Internship</p></div>
+        </div>
+      </div>
+
+      <div class="about-card">
+        <div class="info-item"><span>Education</span><strong>BS Zoology (Final Year)</strong></div>
+        <div class="info-item"><span>Location</span><strong>Faisalabad, Pakistan</strong></div>
+        <div class="info-item"><span>Research Focus</span><strong>Genomics &amp; One Health</strong></div>
+        <div class="info-item"><span>Design Focus</span><strong>Mobile &amp; Web UI/UX, Graphics</strong></div>
+        <div class="info-item"><span>Courses</span><strong>SEO &amp; Digital Media Marketing</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <div class="section-head reveal">
+      <p class="section-tag">My Skills</p>
+      <h2 class="section-title">What I bring to the table.</h2>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <h3>UI/UX Design</h3>
+        <div class="chips">
+          <span>Figma</span><span>Wireframing</span><span>Prototyping</span>
+          <span>User Research</span><span>Design Systems</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Graphic Design</h3>
+        <div class="chips">
+          <span>Canva</span><span>Banners</span><span>Social Media Graphics</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Digital Marketing</h3>
+        <div class="chips">
+          <span>SEO</span><span>Digital Media Marketing</span><span>Content Strategy</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Web Basics</h3>
+        <div class="chips">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Lab Research</h3>
+        <div class="chips">
+          <span>DNA Extraction</span><span>PCR</span><span>ELISA</span><span>Salmonella Isolation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="section-head reveal">
+      <p class="section-tag">My Work</p>
+      <h2 class="section-title">Selected design projects.</h2>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="app">Apps</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="graphics">Graphics</button>
+    </div>
+
+    <div class="projects-grid reveal">
+
+      <div class="project-card" data-category="app">
+        <div class="project-thumb" style="background-image:url('images/battery.png')"><span>Mobile App</span></div>
+        <div class="project-body">
+          <h3>Battery Optimisation App</h3>
+          <p>An Apple Watch app that helps users manage and extend battery life.</p>
+          <a href="https://www.behance.net/gallery/248379401/Battery-Optimisation-App-For-Apple-Watch" target="_blank">View on Behance &rarr;</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="app">
+        <div class="project-thumb" style="background-image:url('images/food.png')"><span>Mobile App</span></div>
+        <div class="project-body">
+          <h3>Food App</h3>
+          <p>A food ordering app designed for a quick and simple experience.</p>
+          <a href="https://www.behance.net/gallery/248378457/Food-App" target="_blank">View on Behance &rarr;</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="app">
+        <div class="project-thumb" style="background-image:url('images/realestate.png')"><span>Mobile App</span></div>
+        <div class="project-body">
+          <h3>Real Estate App</h3>
+          <p>A property search app with clean listings and easy navigation.</p>
+          <a href="https://www.behance.net/gallery/240429411/real-estate-app" target="_blank">View on Behance &rarr;</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="app">
+        <div class="project-thumb" style="background-image:url('images/cartly.png')"><span>Mobile App</span></div>
+        <div class="project-body">
+          <h3>Cartly</h3>
+          <p>A shopping app designed in collaboration with a friend.</p>
+          <a href="https://www.behance.net/aroojzia" target="_blank">View on Behance &rarr;</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="app">
+        <div class="project-thumb" style="background-image:url('images/weather.png')"><span>Mobile App</span></div>
+        <div class="project-body">
+          <h3>Weather App</h3>
+          <p>A clear, easy-to-read weather app focused on quick information.</p>
+          <a href="https://www.behance.net/aroojzia" target="_blank">View on Behance &rarr;</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="web">
+        <div class="project-thumb" style="background-image:url('images/restaurant.png')"><span>Website</span></div>
+        <div class="project-body">
+          <h3>Restaurant Website</h3>
+          <p>A modern restaurant website design with menu and booking sections.</p>
+          <a href="https://www.behance.net/aroojzia" target="_blank">View on Behance &rarr;</a>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="graphics">
+        <div class="project-thumb" style="background-image:url('images/banners.png')"><span>Graphics</span></div>
+        <div class="project-body">
+          <h3>Banners</h3>
+          <p>A collection of promotional banners and social media graphics made in Canva.</p>
+          <a href="https://www.behance.net/aroojzia" target="_blank">View on Behance &rarr;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience">
+    <div class="section-head reveal">
+      <p class="section-tag">Experience</p>
+      <h2 class="section-title">My journey so far.</h2>
+    </div>
+
+    <div class="timeline reveal">
+
+      <div class="timeline-item">
+        <span class="tl-tag">Research Internship</span>
+        <h3>Lab Intern, Nutrition and One Health Laboratory</h3>
+        <h4>CAS-AFS, University of Agriculture Faisalabad</h4>
+        <p>
+          Hands-on molecular and microbiology work: culture media
+          preparation, Salmonella enrichment and isolation from 33 water
+          samples, DNA extraction, conventional PCR, and ELISA on 40 samples.
+        </p>
+        <div class="chips">
+          <span>PCR</span><span>ELISA</span><span>DNA Extraction</span><span>Microbiology</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="tl-tag">Design</span>
+        <h3>UI/UX &amp; Graphic Designer</h3>
+        <h4>Self-directed projects &amp; collaborations</h4>
+        <p>
+          Designing mobile apps, websites and graphics, from research and
+          wireframes to polished prototypes in Figma, plus banners and
+          social graphics in Canva. Work published on Behance.
+        </p>
+        <div class="chips">
+          <span>Figma</span><span>Canva</span><span>Mobile UI</span><span>Web UI</span><span>Prototyping</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="tl-tag">Course</span>
+        <h3>SEO &amp; Digital Media Marketing</h3>
+        <h4>Professional course</h4>
+        <p>
+          Learned search engine optimization and digital media marketing,
+          including keyword research, content strategy and social media
+          promotion.
+        </p>
+        <div class="chips">
+          <span>SEO</span><span>Digital Marketing</span><span>Content Strategy</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <span class="tl-tag">Education</span>
+        <h3>BS Zoology</h3>
+        <h4>Faisalabad, Pakistan</h4>
+        <p>
+          Final-year student focused on metagenomic sequencing, One Health
+          frameworks and zoonotic pathogen surveillance, aiming for a
+          Master's in Molecular Biology and Genomics.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="section-head reveal">
+      <p class="section-tag">Contact</p>
+      <h2 class="section-title">Let's work together.</h2>
+    </div>
+
+    <div class="contact-container reveal">
+      <div class="contact-info">
+        <p>
+          Have a design project, a research idea, or just want to say hello?
+          Send me a message or find me on the platforms below.
+        </p>
+        <a href="https://www.behance.net/aroojzia" target="_blank" class="contact-link"><small>Behance</small>behance.net/aroojzia</a>
+        <a href="https://www.linkedin.com/in/arooj-zia-036051398" target="_blank" class="contact-link"><small>LinkedIn</small>Arooj Zia</a>
+        <a class="contact-link"><small>Location</small>Faisalabad, Pakistan</a>
+      </div>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <input type="text" id="name" placeholder="Your name">
+        <input type="text" id="email" placeholder="Your email">
+        <textarea id="message" placeholder="Your message"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="form-msg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer-logo">Arooj<span>.</span></p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <small>&copy; 2026 Arooj Fatima. All rights reserved.</small>
+  </footer>
+
+  <a href="#home" id="to-top" aria-label="Back to top">&uarr;</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
